@@ -27,7 +27,7 @@ public class ValueParser {
     }
 
 
-    public FoodType getFoodType(String fileString){
+    public FoodType getFoodType(String fileString) {
         String foodType = parseString(fileString, FOOD_TYPE_PATTERN);
         return FoodType.fromString(foodType);
     }

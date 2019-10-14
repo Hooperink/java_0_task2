@@ -8,3 +8,8 @@
 [ERROR] 2019-10-14 15:25:13,554 VacationType.fromString() - There is no such vacation type: Shopseping
 [ERROR] 2019-10-14 15:27:28,444 VacationType.fromString() - There is no such vacation type: Shopseping
 [ERROR] 2019-10-14 15:39:24,194 VacationType.fromString() - There is no such vacation type: Shopseping
+[ERROR] 2019-10-14 16:08:17,231 FoodType.fromString() - There is no such food type asdas
+[ERROR] 2019-10-14 16:08:44,009 FoodType.fromString() - There is no such food type asdas
+[ERROR] 2019-10-14 16:10:30,767 TransportType.fromString() - There is no such transport type: qweqwe
+[ERROR] 2019-10-14 16:12:35,629 VacationType.fromString() - There is no such vacation type: agwe
+[ERROR] 2019-10-14 16:51:07,001 VacationType.fromString() - There is no such vacation type: 

@@ -26,10 +26,13 @@ public class VoucherFactory {
         ValueParser valueParser = new ValueParser();
         Voucher voucher;
         VacationType vacationType = valueParser.getVacationType(stringFromFile);
-        if (vacationType == null){
+
+        if (vacationType == null) {
+            logger.error("Null returned instead voucher." + VoucherFactory.class.getName());
             return null;
         }
-        switch (vacationType){
+
+        switch (vacationType) {
             case TREATMENT:
                 voucher = new TreatmentVoucher();
                 ((TreatmentVoucher)voucher).setMedicalInstitute(valueParser.parseString(stringFromFile, MEDICAL_INSTITUTION_NAME_PATTERN));
