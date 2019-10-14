@@ -1,0 +1,10 @@
+[ERROR] 2019-10-13 23:36:13,480 VacationType.fromString() - There is no such vacation type: Shopseping
+[ERROR] 2019-10-13 23:36:13,495 VouchersFromFile.parseStringAndGetVouchers() - Null
+[ERROR] 2019-10-13 23:36:48,255 VacationType.fromString() - There is no such vacation type: Shopseping
+[ERROR] 2019-10-14 15:20:41,684 VacationType.fromString() - There is no such vacation type: Shopseping
+[ERROR] 2019-10-14 15:22:32,926 VacationType.fromString() - There is no such vacation type: Shopseping
+[ERROR] 2019-10-14 15:24:11,181 VacationType.fromString() - There is no such vacation type: Shopseping
+[ERROR] 2019-10-14 15:25:01,284 VacationType.fromString() - There is no such vacation type: Shopseping
+[ERROR] 2019-10-14 15:25:13,554 VacationType.fromString() - There is no such vacation type: Shopseping
+[ERROR] 2019-10-14 15:27:28,444 VacationType.fromString() - There is no such vacation type: Shopseping
+[ERROR] 2019-10-14 15:39:24,194 VacationType.fromString() - There is no such vacation type: Shopseping
