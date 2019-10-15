@@ -13,3 +13,22 @@
 [ERROR] 2019-10-14 16:10:30,767 TransportType.fromString() - There is no such transport type: qweqwe
 [ERROR] 2019-10-14 16:12:35,629 VacationType.fromString() - There is no such vacation type: agwe
 [ERROR] 2019-10-14 16:51:07,001 VacationType.fromString() - There is no such vacation type: 
+[ERROR] 2019-10-15 00:02:08,113 VacationType.fromString() - There is no such vacation type: Shopseping
+[ERROR] 2019-10-15 00:02:08,136 VoucherFactory.makeVoucherWithFactory() - Null returned instead voucher.by.epam.task_two.pattern.VoucherFactory
+[ERROR] 2019-10-15 00:03:24,270 VacationType.fromString() - There is no such vacation type: Shopseping
+[ERROR] 2019-10-15 00:03:24,276 VoucherFactory.makeVoucherWithFactory() - Null returned instead voucher.by.epam.task_two.pattern.VoucherFactory
+[ERROR] 2019-10-15 00:03:51,473 VacationType.fromString() - There is no such vacation type: Shopseping
+[ERROR] 2019-10-15 00:03:51,489 VoucherFactory.makeVoucherWithFactory() - Null returned instead voucher.by.epam.task_two.pattern.VoucherFactory
+[ERROR] 2019-10-15 00:04:17,681 VacationType.fromString() - There is no such vacation type: Shopseping
+[ERROR] 2019-10-15 00:04:17,681 VoucherFactory.makeVoucherWithFactory() - Null returned instead voucher.by.epam.task_two.pattern.VoucherFactory
+[ERROR] 2019-10-15 00:04:20,574 VacationType.fromString() - There is no such vacation type: Shopseping
+[ERROR] 2019-10-15 00:04:20,581 VoucherFactory.makeVoucherWithFactory() - Null returned instead voucher.by.epam.task_two.pattern.VoucherFactory
+[ERROR] 2019-10-15 00:05:08,794 VacationType.fromString() - There is no such vacation type: Shopseping
+[ERROR] 2019-10-15 00:05:08,794 VoucherFactory.makeVoucherWithFactory() - Null returned instead voucher.by.epam.task_two.pattern.VoucherFactory
+[ERROR] 2019-10-15 00:11:15,445 TransportType.fromString() - There is no such transport type: Traan
+[ERROR] 2019-10-15 00:11:49,163 VacationType.fromString() - There is no such vacation type: Shopseping
+[ERROR] 2019-10-15 00:11:49,168 VoucherFactory.makeVoucherWithFactory() - Null returned instead voucher.by.epam.task_two.pattern.VoucherFactory
+[ERROR] 2019-10-15 22:54:57,964 VacationType.fromString() - There is no such vacation type: Shopseping
+[ERROR] 2019-10-15 22:54:57,993 VoucherFactory.makeVoucherWithFactory() - Null returned instead voucher.by.epam.task_two.pattern.VoucherFactory
+[ERROR] 2019-10-15 22:57:22,903 VacationType.fromString() - There is no such vacation type: Shopseping
+[ERROR] 2019-10-15 22:57:22,908 VoucherFactory.makeVoucherWithFactory() - Null returned instead voucher.by.epam.task_two.pattern.VoucherFactory

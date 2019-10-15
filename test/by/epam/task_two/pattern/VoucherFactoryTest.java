@@ -33,12 +33,7 @@ public class VoucherFactoryTest {
     public void testMakeVoucherWithFactoryAndValidValue() {
         String validValue = "Vacation type: Treatment; Transport: Ship; Country: By; Food type: No food; Amount of days: 30; Medical institution: qwerty;";
         voucherToTest = (TreatmentVoucher)voucherFactory.makeVoucherWithFactory(validValue);
-        assertEquals(voucherToTest.getMedicalInstitute(), treatmentVoucher.getMedicalInstitute());
-        assertEquals(voucherToTest.getAmountOfDays(), treatmentVoucher.getAmountOfDays());
-        assertEquals(voucherToTest.getCountry(), treatmentVoucher.getCountry());
-        assertEquals(voucherToTest.getFoodType(), treatmentVoucher.getFoodType());
-        assertEquals(voucherToTest.getVacationType(), treatmentVoucher.getVacationType());
-        assertEquals(voucherToTest.getTransport(), treatmentVoucher.getTransport());
+        assertEquals(voucherToTest.equals(treatmentVoucher), true);
     }
 
     @Test

@@ -1,4 +1,5 @@
-Vacation type: Excursion; Transport: Train; Country: Egypt; Food type: Half board; Amount of days: 2; Guide: me;
+Vacation type: Cruise; Transport: Train; Country: Egypt; Food type: Half board; Amount of days: 2; Ship: asd;
+Vacation type: Cruise; Transport: Train; Country: Egypt; Food type: Half board; Amount of days: 2; Ship: asd;
 Vacation type: Shopseping; Transport: Bus; Country: By; Food type: All inclusive; Amount of days: 23; Shopping center: Fsdf;
 Vacation type: Shopping; Transport: Bus; Country: By; Food type: All inclusive; Amount of days: 28; Shopping center: Fsdf;
 Vacation type: Rest; Transport: Airplane; Country: By; Food type: Buffet; Amount of days: 19; Hotel: asdasd;

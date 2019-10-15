@@ -2,11 +2,11 @@ package by.epam.task_two.entity;
 
 public class Voucher {
 
-    private TransportType transport;
-    private VacationType vacationType;
-    private int amountOfDays;
-    private String country;
-    private FoodType foodType;
+    protected TransportType transport;
+    protected VacationType vacationType;
+    protected int amountOfDays;
+    protected String country;
+    protected FoodType foodType;
 
     public Voucher(){
 
@@ -60,7 +60,36 @@ public class Voucher {
         this.foodType = foodType;
     }
 
-     @Override
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == this) {
+            return true;
+        }
+        if ((obj == null) || (getClass() != obj.getClass())) {
+            return false;
+        }
+
+        Voucher voucher = (Voucher) obj;
+        return ((amountOfDays == voucher.amountOfDays)
+                && (foodType != null ? foodType.equals(voucher.foodType) : voucher.foodType == null)
+                && (transport != null ? transport.equals(voucher.transport) : voucher.transport == null)
+                && (vacationType != null ? vacationType.equals(voucher.vacationType) : voucher.vacationType == null)
+                && (country != null ? country.equals(voucher.country) : voucher.country == null));
+
+    }
+
+    @Override
+    public int hashCode() {
+        int result = 1;
+        result = 31 * result + amountOfDays;
+        result = 31 * result + (foodType == null ? 0 : foodType.hashCode());
+        result = 31 * result + (transport == null ? 0 : transport.hashCode());
+        result = 31 * result + (vacationType == null ? 0 : vacationType.hashCode());
+        result = 31 * result + (country == null ? 0 : country.hashCode());
+        return  result;
+    }
+
+    @Override
      public String toString() {
          return "Country: " + country + ", transport: " + transport + ", food type: "
                  + foodType + ", amount of days: " + amountOfDays + ", vacation type: " + vacationType;
