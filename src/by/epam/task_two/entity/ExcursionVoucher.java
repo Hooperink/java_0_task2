@@ -11,6 +11,7 @@ public class ExcursionVoucher extends Voucher {
     public String getGuide() {
         return guide;
     }
+    
     @Override
     public boolean equals(Object obj) {
         if (obj == this) {
@@ -19,7 +20,6 @@ public class ExcursionVoucher extends Voucher {
         if ((obj == null) || (getClass() != obj.getClass())) {
             return false;
         }
-
         ExcursionVoucher excursionVoucher = (ExcursionVoucher) obj;
         return ((amountOfDays == excursionVoucher.amountOfDays)
                 && (guide != null ? guide.equals(excursionVoucher.guide) : excursionVoucher.guide == null)
@@ -27,7 +27,6 @@ public class ExcursionVoucher extends Voucher {
                 && (transport != null ? transport.equals(excursionVoucher.transport) : excursionVoucher.transport == null)
                 && (vacationType != null ? vacationType.equals(excursionVoucher.vacationType) : excursionVoucher.vacationType == null)
                 && (country != null ? country.equals(excursionVoucher.country) : excursionVoucher.country == null));
-
     }
 
     @Override
@@ -41,6 +40,7 @@ public class ExcursionVoucher extends Voucher {
         result = 31 * result + (country == null ? 0 : country.hashCode());
         return  result;
     }
+    
     @Override
     public String toString() {
         return super.toString() + "; Guide: " + guide;
