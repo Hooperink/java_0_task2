@@ -23,7 +23,7 @@ public class VoucherFileReader {
         StringValidator stringValidator = new StringValidator();
         VoucherFactory voucherFactory = new VoucherFactory();
         Voucher voucher;
-        try (BufferedReader bufferedReader = new BufferedReader(new FileReader(file))){
+        try (BufferedReader bufferedReader = new BufferedReader(new FileReader(file))) {
             String temp;
             while ((temp = bufferedReader.readLine()) != null) {
                 if (stringValidator.validate(temp)) {
@@ -42,5 +42,4 @@ public class VoucherFileReader {
         }
         return vouchers;
     }
-
 }
