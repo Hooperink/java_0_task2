@@ -41,5 +41,4 @@ public class ValueParser {
         Matcher matcherCountry = pattern.matcher(fileString);
         return matcherCountry.find() ? matcherCountry.group(2) : "";
     }
-
 }
