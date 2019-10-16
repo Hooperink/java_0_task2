@@ -65,6 +65,4 @@ public class VoucherFactory {
         voucher.setAmountOfDays(valueParser.getAmountOfDays(stringFromFile));
         return voucher;
     }
-
-
 }
