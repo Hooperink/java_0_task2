@@ -33,7 +33,6 @@ public class CruiseVoucher extends Voucher{
                 && (transport != null ? transport.equals(cruiseVoucher.transport) : cruiseVoucher.transport == null)
                 && (vacationType != null ? vacationType.equals(cruiseVoucher.vacationType) : cruiseVoucher.vacationType == null)
                 && (country != null ? country.equals(cruiseVoucher.country) : cruiseVoucher.country == null));
-
     }
 
     @Override
