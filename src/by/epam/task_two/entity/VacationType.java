@@ -18,18 +18,18 @@ public enum  VacationType {
     private final static Map<String, VacationType> VACATIONS_TYPE_BY_NAME = new HashMap<>();
     private final static Logger logger = LogManager.getLogger(VacationType.class);
 
-    VacationType(String type){
+    VacationType(String type) {
         this.type = type;
     }
 
     static {
-        for (VacationType vacationType : values()){
+        for (VacationType vacationType : values()) {
             VACATIONS_TYPE_BY_NAME.put(vacationType.type, vacationType);
         }
     }
 
-    public static VacationType fromString(String value){
-        if (VACATIONS_TYPE_BY_NAME.get(value) == null){
+    public static VacationType fromString(String value) {
+        if (VACATIONS_TYPE_BY_NAME.get(value) == null) {
             logger.error("There is no such vacation type: " + value);
         }
         return VACATIONS_TYPE_BY_NAME.get(value);
