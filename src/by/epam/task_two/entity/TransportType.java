@@ -17,7 +17,7 @@ public enum TransportType {
     private final static Map<String, TransportType> TRANSPORT_TYPE_BY_NAME = new HashMap<>();
     private final static Logger logger = LogManager.getLogger(TransportType.class);
 
-    TransportType(String transport){
+    TransportType(String transport) {
         this.transport = transport;
     }
 
@@ -27,7 +27,7 @@ public enum TransportType {
         }
     }
 
-    public static TransportType fromString(String value){
+    public static TransportType fromString(String value) {
         if (TRANSPORT_TYPE_BY_NAME.get(value) == null){
             logger.error("There is no such transport type: " + value);
         }
