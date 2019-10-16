@@ -1,6 +1,6 @@
 package by.epam.task_two.entity;
 
-public class CruiseVoucher extends Voucher{
+public class CruiseVoucher extends Voucher {
 
     private String shipName;
 
