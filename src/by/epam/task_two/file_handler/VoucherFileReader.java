@@ -1,6 +1,7 @@
 package by.epam.task_two.file_handler;
 
 import by.epam.task_two.entity.Voucher;
+import by.epam.task_two.exception.NotValidStringException;
 import by.epam.task_two.pattern.VoucherFactory;
 import by.epam.task_two.validator.StringValidator;
 import org.apache.logging.log4j.LogManager;
@@ -18,7 +19,7 @@ public class VoucherFileReader {
     private static final Logger logger = LogManager.getLogger(VoucherFileReader.class.getName());
     private List<Voucher> vouchers = new ArrayList<>();
 
-    public List<Voucher> parseStringAndGetVouchers() {
+    public List<Voucher> parseStringAndGetVouchers() throws NotValidStringException{
         File file = new File("./resource/voucher.txt");
         StringValidator stringValidator = new StringValidator();
         VoucherFactory voucherFactory = new VoucherFactory();
@@ -33,6 +34,7 @@ public class VoucherFileReader {
                     }
                 } else {
                     logger.error("String " + temp + " is not valid.");
+                    throw new NotValidStringException("String " + temp + " is not valid.");
                 }
             }
         } catch (IOException e){
