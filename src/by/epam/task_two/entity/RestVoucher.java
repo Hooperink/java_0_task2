@@ -27,7 +27,6 @@ public class RestVoucher extends Voucher {
                 && (transport != null ? transport.equals(restVoucher.transport) : restVoucher.transport == null)
                 && (vacationType != null ? vacationType.equals(restVoucher.vacationType) : restVoucher.vacationType == null)
                 && (country != null ? country.equals(restVoucher.country) : restVoucher.country == null));
-
     }
 
     @Override
