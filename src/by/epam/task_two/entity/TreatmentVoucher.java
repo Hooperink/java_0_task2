@@ -27,7 +27,6 @@ public class TreatmentVoucher extends Voucher {
                 && (transport != null ? transport.equals(treatmentVoucher.transport) : treatmentVoucher.transport == null)
                 && (vacationType != null ? vacationType.equals(treatmentVoucher.vacationType) : treatmentVoucher.vacationType == null)
                 && (country != null ? country.equals(treatmentVoucher.country) : treatmentVoucher.country == null);
-
     }
 
     @Override
@@ -41,6 +40,7 @@ public class TreatmentVoucher extends Voucher {
         result = 31 * result + (country == null ? 0 : country.hashCode());
         return  result;
     }
+    
     @Override
     public String toString() {
         return super.toString() + "; Medical institute: " + medicalInstitute;
