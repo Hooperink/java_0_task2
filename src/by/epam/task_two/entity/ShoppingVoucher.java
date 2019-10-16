@@ -29,7 +29,6 @@ public class ShoppingVoucher extends Voucher {
                 && (transport != null ? transport.equals(shoppingVoucher.transport) : shoppingVoucher.transport == null)
                 && (vacationType != null ? vacationType.equals(shoppingVoucher.vacationType) : shoppingVoucher.vacationType == null)
                 && (country != null ? country.equals(shoppingVoucher.country) : shoppingVoucher.country == null));
-
     }
 
     @Override
@@ -43,6 +42,7 @@ public class ShoppingVoucher extends Voucher {
         result = 31 * result + (country == null ? 0 : country.hashCode());
         return  result;
     }
+    
     @Override
     public String toString() {
         return super.toString() + ", Shopping center: " + shoppingCenter;
