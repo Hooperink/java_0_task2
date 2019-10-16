@@ -8,11 +8,11 @@ public class Voucher {
     protected String country;
     protected FoodType foodType;
 
-    public Voucher(){
+    public Voucher() {
 
     }
 
-    public Voucher(TransportType transport, VacationType vacationType, int amountOfDays, String country, FoodType foodType){
+    public Voucher(TransportType transport, VacationType vacationType, int amountOfDays, String country, FoodType foodType) {
         this.transport = transport;
         this.vacationType = vacationType;
         this.amountOfDays = amountOfDays;
@@ -75,7 +75,6 @@ public class Voucher {
                 && (transport != null ? transport.equals(voucher.transport) : voucher.transport == null)
                 && (vacationType != null ? vacationType.equals(voucher.vacationType) : voucher.vacationType == null)
                 && (country != null ? country.equals(voucher.country) : voucher.country == null));
-
     }
 
     @Override
